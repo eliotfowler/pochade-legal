@@ -6,6 +6,7 @@ Static HTML pages hosting the Privacy Policy and Terms of Service for the Pochad
 
 - `privacy-policy.html` — Privacy Policy page
 - `terms-of-service.html` — Terms of Service page
+- `support.html` — Support & FAQ page
 
 ## HTML Conventions
 

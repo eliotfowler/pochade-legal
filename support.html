@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pochade — Support</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --fg: #1a1a1a;
+      --fg-secondary: #555;
+      --bg: #faf9f7;
+      --accent: #8b6f47;
+      --border: #e0dbd4;
+      --radius: 6px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #e8e4df;
+        --fg-secondary: #a9a49c;
+        --bg: #1c1b19;
+        --accent: #c4a574;
+        --border: #33312d;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      padding: 3rem 1.5rem 5rem;
+      max-width: 640px;
+      margin: 0 auto;
+      -webkit-font-smoothing: antialiased;
+    }
+    header { margin-bottom: 3rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border); }
+    header .app-name {
+      font-family: 'DM Serif Display', Georgia, serif;
+      font-size: 2rem;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+    header .doc-title {
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+    header .effective {
+      margin-top: 0.75rem;
+      font-size: 0.8125rem;
+      color: var(--fg-secondary);
+    }
+    h2 {
+      font-family: 'DM Serif Display', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+      letter-spacing: -0.01em;
+    }
+    h3 {
+      font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+      font-size: 0.9375rem;
+      font-weight: 500;
+      margin-top: 1.5rem;
+      margin-bottom: 0.375rem;
+      color: var(--fg);
+    }
+    p { margin-bottom: 1rem; font-size: 0.9375rem; color: var(--fg-secondary); }
+    p strong { color: var(--fg); font-weight: 500; }
+    a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+    a:hover { text-decoration-thickness: 2px; }
+    .callout {
+      background: color-mix(in srgb, var(--accent) 8%, transparent);
+      border-left: 3px solid var(--accent);
+      padding: 1rem 1.25rem;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin: 1.5rem 0;
+      font-size: 0.9375rem;
+      color: var(--fg-secondary);
+    }
+    ul {
+      margin: 0.5rem 0 1rem 1.25rem;
+      font-size: 0.9375rem;
+      color: var(--fg-secondary);
+    }
+    ul li { margin-bottom: 0.25rem; }
+    footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.8125rem;
+      color: var(--fg-secondary);
+    }
+    footer a { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="doc-title">Support</div>
+  <div class="app-name">Pochade</div>
+  <div class="effective">A reference preparation tool for painters</div>
+</header>
+
+<div class="callout">
+  Pochade is an iPad app for painters. Study tonal structure with the Values tool, compose your framing with crop presets, and overlay grids on your reference photos — all locally on your device, with no account required.
+</div>
+
+<h2>Getting Started</h2>
+
+<h3>What is Pochade?</h3>
+<p>Pochade is a document-based reference preparation tool for painters. You build a library of sessions — each one tied to a reference photo — and use the editor to study tonal structure, frame your composition, and plan your grid before you paint.</p>
+
+<h3>How do I import my own photos?</h3>
+<p>Importing your own reference photos requires <strong>Pochade Pro</strong>. After purchasing Pro, tap <strong>New</strong> in the library and select a photo. Without Pro, you can only work with the built-in sample images.</p>
+
+<h3>What devices does Pochade support?</h3>
+<p>Pochade is an iPad-only app and requires iOS 26 or later.</p>
+
+<h2>Pochade Pro</h2>
+
+<h3>What is included in the free version?</h3>
+<p>The free version lets you use all of Pochade's tools — Values, Grayscale, Crop, and Grid — but only with the built-in sample images. You cannot import your own photos without Pro.</p>
+
+<h3>What does Pochade Pro unlock?</h3>
+<p><strong>Pochade Pro</strong> gives you unlimited access to import your own reference photos from your photo library. It is a one-time purchase of <strong>$9.99</strong> with no subscription. Once purchased, the unlock is permanent and includes all future updates at no additional cost.</p>
+
+<h3>How do I restore my purchase on a new device?</h3>
+<p>Open Pochade on your new device, go to <strong>Settings</strong>, and tap <strong>Restore Purchases</strong>. Make sure you are signed in to the same Apple Account used for the original purchase.</p>
+
+<h2>Common Questions</h2>
+
+<h3>Is my data backed up or synced?</h3>
+<p>Pochade is entirely local. Your reference photos and session data stay on your device and are never uploaded to any server. There is no cloud sync or export feature. Keep your own backups of important reference materials.</p>
+
+<h3>What data does Pochade collect?</h3>
+<p>Pochade uses <strong>TelemetryDeck</strong> for anonymous, aggregated usage analytics and <strong>Sentry</strong> for crash reporting. Neither service collects personal data, and neither we nor the services can identify individual users. See the <a href="privacy-policy.html">Privacy Policy</a> for full details.</p>
+
+<h2>Tools &amp; Gestures</h2>
+
+<h3>What does the Values tool do?</h3>
+<p>The Values tool simplifies your reference photo's tonal structure into stepped luminance buckets. You control the number of steps (2–9) and the simplify strength (0–100%). A histogram and bucket mask overlay help you see exactly where each value range falls in your image.</p>
+
+<h3>How do the crop presets work?</h3>
+<p>The Crop tool lets you frame your reference non-destructively using standard aspect ratios: Original, 1:1, 3:2, 4:3, and 5:4. The source image is never modified — the crop only affects what you see and analyze in the editor.</p>
+
+<h3>How does the grid overlay work?</h3>
+<p>The Grid tool overlays a customizable planning grid on your reference. You can set columns and rows independently (2–12 each), choose a line color (white, black, red, or yellow), and adjust line thickness (thin, medium, or thick).</p>
+
+<h3>What is Zen Mode?</h3>
+<p>Zen Mode hides all controls and UI chrome so you can study your reference without distraction. Use a <strong>two-finger tap</strong> on the canvas to toggle it on and off. While in Zen Mode, a single tap brings back a temporary exit hint and the quick-toggle pills for Grayscale, Grid, and Values.</p>
+
+<h3>What gestures does Pochade support?</h3>
+<ul>
+  <li><strong>Pinch</strong> — zoom the viewer</li>
+  <li><strong>Two-finger drag</strong> — pan the viewer</li>
+  <li><strong>Two-finger rotate</strong> — rotate the viewer</li>
+  <li><strong>Double-tap</strong> — reset zoom, pan, and rotation</li>
+  <li><strong>Two-finger tap</strong> — toggle Zen Mode</li>
+  <li><strong>Hold (one finger)</strong> — peek the grid overlay while held</li>
+  <li><strong>Hold (two fingers)</strong> — peek the values overlay while held</li>
+</ul>
+
+<h2>Contact</h2>
+<p>If you have a question not answered here, or you've found a bug, please email us at <a href="mailto:eliot@eliotfowler.com">eliot@eliotfowler.com</a> and we'll get back to you as soon as we can.</p>
+<p>You can also find Pochade on the <a href="https://apps.apple.com/app/pochade" target="_blank" rel="noopener">App Store</a>.</p>
+
+<footer>
+  <p>&copy; 2026 John Fowler. All rights reserved.</p>
+  <p><a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="terms-of-service.html">Terms of Service</a></p>
+</footer>
+
+</body>
+</html>
