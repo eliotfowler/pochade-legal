@@ -90,11 +90,11 @@
 <header>
   <div class="doc-title">Privacy Policy</div>
   <div class="app-name">Pochade</div>
-  <div class="effective">Effective date: July 21, 2026 · Last updated: July 21, 2026</div>
+  <div class="effective">Effective date: October 27, 2026 · Last updated: October 27, 2026</div>
 </header>
 
 <div class="callout">
-  <strong>The short version:</strong> Pochade keeps your data on your device. We do not collect personal information, require accounts, or track you. We use privacy-friendly, anonymized analytics to improve the app.
+  <strong>The short version:</strong> Pochade keeps your data on your device. We do not collect personal information, require accounts, or track you. We use privacy-friendly, anonymized analytics and crash reporting to improve the app.
 </div>
 
 <h2>Who We Are</h2>
@@ -105,13 +105,18 @@
 <p>We do not collect your name, email, or contact information. We do not require accounts or login. We do not access, upload, or share your images. We do not sell data to third parties, and we do not display ads or track you across apps.</p>
 
 <h2>Analytics and Diagnostics</h2>
-<p>We use <strong>TelemetryDeck</strong> (TelemetryDeck GmbH, Augsburg, Germany) to collect anonymous, aggregated usage analytics and crash diagnostics. This helps us understand how the app is used, fix bugs, and prioritize improvements.</p>
+<p>We use <strong>TelemetryDeck</strong> (TelemetryDeck GmbH, Augsburg, Germany) to collect anonymous, aggregated usage analytics. This helps us understand how the app is used, fix bugs, and prioritize improvements.</p>
 <p>TelemetryDeck anonymizes all identifiers on your device before transmission using a double-hashing technique. Neither we nor TelemetryDeck can trace any signal back to an individual user. No cookies are used, and no data is shared with advertisers or data brokers.</p>
-<p>Anonymized data collected may include an untraceable device identifier (hashed on-device), app usage events, device type, OS version, app version, and crash reports.</p>
+<p>Anonymized data collected may include an untraceable device identifier (hashed on-device), app usage events (such as which tools are used, how long an editing session lasts, and the kind of error when an import or export fails), device type, OS version, app version, and how the app was installed (from the App Store, through TestFlight, or as a development build).</p>
 <p>TelemetryDeck's SDK is open source at <a href="https://github.com/TelemetryDeck" target="_blank" rel="noopener">github.com/TelemetryDeck</a>. Their full privacy policy is at <a href="https://telemetrydeck.com/privacy/" target="_blank" rel="noopener">telemetrydeck.com/privacy</a>.</p>
 
+<h2>Crash and Error Reporting</h2>
+<p>We use <strong>Sentry</strong> (Functional Software, Inc., San Francisco, USA) to receive crash and error reports from the app, so we can find and fix bugs. Reports are processed on Sentry's servers in the United States.</p>
+<p>When the app crashes or runs into an error, it sends Sentry a technical report: a stack trace, a short description of the error, a log of recent technical events in the app (such as screen changes and network requests), device model, OS version, app version, and a random identifier that Sentry's SDK creates for your installation of the app. That identifier is not linked to your name, Apple ID, or any account; it lets us tell whether a problem affects many installations or just one. Sentry also receives a short notice when an app session starts and ends, so we can measure how often the app crashes.</p>
+<p>Reports never include your photos, the contents of your sessions, or your contact information. Pochade does not turn on Sentry's option to send personal information such as your IP address. Sentry's privacy policy is at <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">sentry.io/privacy</a>.</p>
+
 <h2>Apple Ads Attribution</h2>
-<p>We occasionally advertise Pochade through <strong>Apple Ads</strong> (ads shown in the App Store). To measure whether those campaigns work, the app asks Apple's privacy-preserving <strong>AdServices</strong> framework — once, shortly after installation — whether your download came from one of our Apple Ads campaigns.</p>
+<p>We occasionally advertise Pochade through <strong>Apple Ads</strong> (ads shown in the App Store). To measure whether those campaigns work, the app asks Apple's privacy-preserving <strong>AdServices</strong> framework, shortly after installation, whether your download came from one of our Apple Ads campaigns. If Apple's service doesn't answer, the app tries again over its next few launches, and stops after five tries.</p>
 <p>Apple's response contains only campaign-level information, such as campaign, ad group, ad, and keyword identifiers, the country or region of the App Store storefront, and where the ad was shown. It contains <strong>no personal information</strong> and nothing that identifies you or your device. This result is stored on your device and attached to the anonymized TelemetryDeck analytics events described above (for example, alongside purchase events) so we can tell in aggregate which campaigns lead people to the app.</p>
 <p>Pochade does not request App Tracking Transparency permission, does not use Apple's tracking-gated "detailed" attribution data, and does not track you across other apps or websites. You can learn more in Apple's <a href="https://www.apple.com/legal/privacy/data/en/apple-advertising/" target="_blank" rel="noopener">Apple Advertising &amp; Privacy</a> disclosure.</p>
 
@@ -119,7 +124,7 @@
 <p>Pochade offers an in-app purchase processed through the App Store. We do not receive or store your payment information — all transactions are handled by Apple under their <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">privacy policy</a>.</p>
 
 <h2>Your Rights</h2>
-<p>Since Pochade does not collect personal information, the rights typically granted under privacy regulations like GDPR and CCPA are largely not applicable. The anonymized analytics collected by TelemetryDeck cannot be linked back to you. You can delete the app or individual sessions at any time to remove all local data.</p>
+<p>Since Pochade does not collect personal information, the rights typically granted under privacy regulations like GDPR and CCPA are largely not applicable. The anonymized analytics collected by TelemetryDeck cannot be linked back to you, and Sentry's crash and error reports carry only a random installation identifier, not your identity. You can delete the app or individual sessions at any time to remove all local data.</p>
 
 <h2>Changes to This Policy</h2>
 <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated effective date.</p>
